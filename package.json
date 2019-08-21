@@ -3,7 +3,22 @@
   "version": "0.0.1",
   "author": "FlorianWoelki <FlorianWoelki@gmx.de>",
   "description": "Cirrus Studio is a desktop app, where you can build beautiful user interfaces with Cirrus.",
-  "license": null,
+  "license": "MIT",
+  "repository": "git+https://github.com/FlorianWoelki/cirrus-studio",
+  "bugs": {
+    "url": "https://github.com/FlorianWoelki/cirrus-studio/issues"
+  },
+  "homepage": "https://github.com/FlorianWoelki/cirrus-studio",
+  "keywords": [
+    "vue",
+    "ui-builder",
+    "ui-components",
+    "vue-cirrus",
+    "cirrus",
+    "cirrus-studio",
+    "vuex",
+    "electron"
+  ],
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
