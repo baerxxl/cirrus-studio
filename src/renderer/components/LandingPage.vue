@@ -1,5 +1,7 @@
 <template>
-  <ComponentSidebar />
+  <ComponentSidebar>
+    <h4 class="white light">Pretty Dope stuff <fa-icon icon="user-secret"></fa-icon></h4>
+  </ComponentSidebar>
 </template>
 
 <script>

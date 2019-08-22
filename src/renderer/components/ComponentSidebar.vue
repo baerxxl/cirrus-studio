@@ -5,9 +5,7 @@
       <v-sidebar-item link="Test">Test</v-sidebar-item>
     </v-sidebar-items>
     <v-sidebar-content>
-      <v-container>
-        <h4 class="white light">Pretty Dope stuff</h4>
-      </v-container>
+      <slot></slot>
     </v-sidebar-content>
   </v-sidebar>
 </template>
