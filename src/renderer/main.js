@@ -5,7 +5,7 @@ import 'vue-cirrus/dist/vue-cirrus.css';
 import 'vue-cirrus/dist/vue-cirrus.common';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { faEye as farEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 import App from './App';
@@ -16,7 +16,7 @@ if (!process.env.IS_WEB) Vue.use(require('vue-electron'));
 Vue.http = Vue.prototype.$http = axios;
 Vue.config.productionTip = false;
 
-library.add(faUserSecret);
+library.add(farEye);
 
 Vue.component('fa-icon', FontAwesomeIcon);
 

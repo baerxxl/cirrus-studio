@@ -1,6 +1,6 @@
 <template>
   <ComponentSidebar>
-    <h4 class="white light">Pretty Dope stuff <fa-icon icon="user-secret"></fa-icon></h4>
+    <h6 class="white light"><fa-icon :icon="['fa', 'eye']"></fa-icon> Preview</h6>
   </ComponentSidebar>
 </template>
 
